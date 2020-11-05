@@ -7,9 +7,9 @@ while count < 5 do
 end
 end
 
-def loop_message_n_times(message, "integer" = 5)
+def loop_message_n_times(message)
 count = 0
-while count = "integer"
+until count = 5
   puts message
   count += 1
 end
