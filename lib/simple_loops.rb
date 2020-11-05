@@ -9,7 +9,7 @@ end
 
 def loop_message_n_times(message, "integer" = 5)
 count = 0
-until count = "integer"
+while count = "integer"
   puts message
   count += 1
 end
